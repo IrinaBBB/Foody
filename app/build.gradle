@@ -71,10 +71,10 @@ dependencies {
     kapt "androidx.databinding:databinding-common:4.2.1"
 
     // DataStore
-    implementation "androidx.datastore:datastore-preferences:1.0.0-alpha01"
+    implementation "androidx.datastore:datastore-preferences:1.0.0-beta02"
 
     // Recyclerview
-    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
 
     // Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
