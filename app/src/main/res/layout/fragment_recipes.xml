@@ -13,6 +13,7 @@
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
+        android:contentDescription="@string/recipes_fragment"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -28,26 +29,27 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="24dp"
         android:clickable="true"
+        android:contentDescription="@string/options"
         android:focusable="true"
-        app:tint="@color/white"
         android:src="@drawable/ic_restaurant"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:contentDescription="@string/options" />
+        app:tint="@color/white"
+        tools:ignore="ImageContrastCheck" />
 
     <ImageView
         android:id="@+id/error_imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:alpha="0.5"
+        android:contentDescription="@string/sad_face_image_view"
         android:src="@drawable/ic_sad"
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/shimmer_recycler_view"
-        app:layout_constraintVertical_bias="0.36"
-        android:contentDescription="@string/sad_face_image_view" />
+        app:layout_constraintVertical_bias="0.36" />
 
     <TextView
         android:id="@+id/error_textView"
